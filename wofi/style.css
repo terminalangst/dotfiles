@@ -1,0 +1,72 @@
+* {
+  font-family: Jetbrains Mono;
+  background: transparent;
+  color: #e6e6e6;
+}
+
+#window {
+  color: #524741;
+  border-color: #524741;
+  border-style: solid;
+  border-width: 1px;
+
+  /*Linear gradient background instead of standard background, because it makes cleaner border-radius cuts, issa bug :p*/
+  background-image: linear-gradient(to bottom, #161412 100%);
+  border-radius: 0px;
+}
+#scroll {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #524741;
+}
+#inner-box {
+  padding-top: 12px;
+}
+#entry {
+  border-style: none;
+  border-color: #524741;
+  color: #524741;
+  padding: 6px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 12;
+
+  border-radius: 0px;
+}
+
+#entry:selected {
+  background: #b35d2e;
+  color: #b35d2e;
+  font-weight: bold;
+  outline: none;
+}
+
+#input {
+  background-color: #161412;
+  color: #e6e6e6;
+  border-color: #524741;
+
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+
+  font-style: normal;
+
+  border-radius: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  padding: 12px;
+  margin: 8px;
+}
+#input:focus {
+  background: #161412;
+  background-color: #161412;
+  border-color: #b35d2e;
+  font-style: italic;
+}
+
+#img {
+  padding: 4px;
+  margin-right: 6px;
+}
