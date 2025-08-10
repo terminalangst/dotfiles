@@ -22,10 +22,10 @@ window#waybar {
 #pulseaudio {
   background-image: linear-gradient(to bottom, #241f1d 100%);
 
-  margin: 6px;
+  margin: 9px;
   margin-right: 0px;
   padding: 4px 8px;
-  border-radius: 8px;
+  border-radius: 0px;
   color: #776860;
 
   border-style: none;
