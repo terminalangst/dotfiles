@@ -16,7 +16,6 @@ window#waybar {
 #battery,
 #network,
 #clock,
-#custom-applauncher,
 #tray,
 #workspaces,
 #pulseaudio {
@@ -42,15 +41,6 @@ window#waybar {
   transition-duration: 120ms;
 }
 
-#custom-applauncher {
-  font-weight: bold;
-  transition-duration: 120ms;
-}
-#custom-applauncher:hover {
-  background-image: linear-gradient(to bottom, #b35d2e 100%);
-  color: #141216;
-  transition-duration: 120ms;
-}
 
 #tray menu {
   background-color: #241f1d;
